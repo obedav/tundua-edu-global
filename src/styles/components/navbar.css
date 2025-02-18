@@ -1,0 +1,85 @@
+/* src/styles/components/navbar.css */
+
+  /* Main Navbar Container */
+  .navbar {
+    @apply bg-white shadow-sm fixed top-0 w-full z-50;
+  }
+
+  .navbar-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between;
+  }
+
+  /* Brand/Logo */
+  .navbar-brand {
+    @apply text-xl font-bold text-blue-600 hover:text-blue-700 transition-colors;
+  }
+
+  /* Navigation Links Container */
+  .navbar-links {
+    @apply hidden md:flex items-center gap-6;
+  }
+
+  /* Individual Navigation Link */
+  .nav-link {
+    @apply text-gray-600 hover:text-blue-600 transition-colors;
+  }
+
+  .nav-link-active {
+    @apply text-blue-600;
+  }
+
+  /* Authentication Buttons */
+  .auth-buttons {
+    @apply flex items-center gap-4;
+  }
+
+  .login-button {
+    @apply text-gray-600 hover:text-blue-600 transition-colors;
+  }
+
+  .signup-button {
+    @apply bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors;
+  }
+
+  /* Mobile Menu Button */
+  .mobile-menu-button {
+    @apply md:hidden p-2 text-gray-600 hover:text-blue-600 transition-colors;
+  }
+
+  /* Mobile Menu */
+  .mobile-menu {
+    @apply md:hidden fixed inset-0 z-50 bg-white;
+  }
+
+  .mobile-menu-header {
+    @apply flex items-center justify-between p-4 border-b border-gray-200;
+  }
+
+  .mobile-menu-links {
+    @apply flex flex-col p-4 space-y-4;
+  }
+
+  .mobile-nav-link {
+    @apply block w-full px-3 py-2 text-gray-600 hover:text-blue-600 hover:bg-gray-50 
+           rounded-md transition-colors text-sm font-medium;
+  }
+
+  .search-input {
+    @apply px-4 py-2 rounded-l-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  }
+  
+  .search-button {
+    @apply px-4 py-2 bg-blue-500 text-white rounded-r-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+  }
+  
+  .mobile-search-container {
+    @apply p-4 border-b border-gray-200;
+  }
+  
+  .mobile-search-input {
+    @apply w-full px-4 py-2 rounded-l-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  }
+  
+  .mobile-search-button {
+    @apply absolute right-5 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600;
+  }

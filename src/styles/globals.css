@@ -1,0 +1,13 @@
+/* src/styles/globals.css */
+/* Base styles */
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+h1 {
+  @apply text-4xl font-bold mb-4;
+}
+
+h2 {
+  @apply text-2xl font-semibold mb-3;
+}

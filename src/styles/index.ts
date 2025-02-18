@@ -1,0 +1,10 @@
+// src/styles/index.ts
+import './globals.css'
+import './components/navbar.css'
+import './pages/home.css'
+import './pages/about.css'
+import './pages/courses.css'
+import './pages/coursedetails.css'
+import './pages/contact.css'
+import './pages/profile.css'
+import './pages/universities.css'

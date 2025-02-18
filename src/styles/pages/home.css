@@ -1,0 +1,121 @@
+/* src/styles/pages/home.css */
+
+    /* Navigation Section */
+    .nav-container {
+      @apply bg-white shadow-sm fixed top-0 w-full z-50;
+    }
+  
+    .nav-content {
+      @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between;
+    }
+  
+    .nav-brand {
+      @apply text-xl font-bold text-blue-600 hover:text-blue-700 transition-colors;
+    }
+  
+    .nav-links {
+      @apply flex gap-6 items-center;
+    }
+  
+    .nav-link {
+      @apply text-gray-600 hover:text-blue-600 transition-colors;
+    }
+  
+    .nav-button {
+      @apply bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors;
+    }
+  
+    /* Hero Section */
+    .hero-section {
+      @apply bg-[#F5F8F7] pt-24 pb-16 px-4 sm:px-6 lg:px-8;
+    }
+  
+    .hero-container {
+      @apply max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center;
+    }
+  
+    .hero-content {
+      @apply space-y-6;
+    }
+  
+    .hero-heading {
+      @apply text-4xl md:text-5xl font-bold;
+    }
+  
+    .hero-text {
+      @apply text-gray-600 text-lg;
+    }
+  
+    .hero-button {
+      @apply bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 
+             transition-colors inline-block;
+    }
+  
+    /* Reviews Section */
+    .reviews-section {
+      @apply mt-8 flex items-center gap-4;
+    }
+  
+    .reviews-avatars {
+      @apply flex -space-x-2;
+    }
+  
+    .avatar {
+      @apply w-8 h-8 rounded-full border-2 border-white bg-gray-200;
+    }
+  
+    .reviews-text {
+      @apply text-sm;
+    }
+  
+    .reviews-rating {
+      @apply text-yellow-400;
+    }
+  
+    /* Course Section */
+    .courses-section {
+      @apply py-16 px-4 sm:px-6 lg:px-8 bg-white;
+    }
+  
+    .courses-header {
+      @apply max-w-7xl mx-auto flex justify-between items-center mb-8;
+    }
+  
+    .courses-title {
+      @apply text-3xl font-bold;
+    }
+  
+    .courses-button {
+      @apply text-blue-600 hover:text-blue-700 transition-colors;
+    }
+  
+    /* Footer Section */
+    .footer {
+      @apply bg-white border-t border-gray-200 py-12;
+    }
+  
+    .footer-container {
+      @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 
+             md:grid-cols-4 gap-8;
+    }
+  
+    .footer-brand {
+      @apply text-xl font-bold mb-4;
+    }
+  
+    .footer-text {
+      @apply text-gray-600;
+    }
+  
+    .footer-heading {
+      @apply font-medium text-gray-900 mb-4;
+    }
+  
+    .footer-links {
+      @apply space-y-2;
+    }
+  
+    .footer-link {
+      @apply text-gray-600 hover:text-blue-600 transition-colors block;
+    }
+  
